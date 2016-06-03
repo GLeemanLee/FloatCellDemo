@@ -1,12 +1,13 @@
 //
 //  AppDelegate.swift
-//  MGBeseTableView
+//  FLoatCellDemo
 //
 //  Created by ghost on 16/4/12.
 //  Copyright © 2016年 apple. All rights reserved.
 //
 
 import UIKit
+
 
 class HeroTableViewCell: UITableViewCell {
     
@@ -25,6 +26,7 @@ class HeroTableViewCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
         matterView.numberOfLines = 0
+        backgroundColor = UIColor.init(red: arc, green: <#T##CGFloat#>, blue: <#T##CGFloat#>, alpha: <#T##CGFloat#>)
     }
 
     override func setSelected(selected: Bool, animated: Bool) {

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  MGBeseTableView
+//  FLoatCellDemo
 //
 //  Created by ghost on 16/4/12.
 //  Copyright © 2016年 apple. All rights reserved.
