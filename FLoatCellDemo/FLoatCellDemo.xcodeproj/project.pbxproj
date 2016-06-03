@@ -12,6 +12,10 @@
 		182692BB1D01E17200F97532 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182692B91D01E17200F97532 /* Main.storyboard */; };
 		182692BD1D01E17200F97532 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182692BC1D01E17200F97532 /* Assets.xcassets */; };
 		182692C01D01E17200F97532 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182692BE1D01E17200F97532 /* LaunchScreen.storyboard */; };
+		182692C81D01E22E00F97532 /* heros.plist in Resources */ = {isa = PBXBuildFile; fileRef = 182692C71D01E22E00F97532 /* heros.plist */; };
+		182692CC1D01E35400F97532 /* BaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182692C91D01E35400F97532 /* BaseTableView.swift */; };
+		182692CD1D01E35400F97532 /* Heros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182692CA1D01E35400F97532 /* Heros.swift */; };
+		182692CE1D01E35400F97532 /* HeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182692CB1D01E35400F97532 /* HeroTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		182692BC1D01E17200F97532 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182692BF1D01E17200F97532 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182692C11D01E17200F97532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182692C71D01E22E00F97532 /* heros.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = heros.plist; sourceTree = "<group>"; };
+		182692C91D01E35400F97532 /* BaseTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableView.swift; sourceTree = "<group>"; };
+		182692CA1D01E35400F97532 /* Heros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heros.swift; sourceTree = "<group>"; };
+		182692CB1D01E35400F97532 /* HeroTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				182692BC1D01E17200F97532 /* Assets.xcassets */,
 				182692BE1D01E17200F97532 /* LaunchScreen.storyboard */,
 				182692C11D01E17200F97532 /* Info.plist */,
+				182692C71D01E22E00F97532 /* heros.plist */,
+				182692C91D01E35400F97532 /* BaseTableView.swift */,
+				182692CA1D01E35400F97532 /* Heros.swift */,
+				182692CB1D01E35400F97532 /* HeroTableViewCell.swift */,
 			);
 			path = FLoatCellDemo;
 			sourceTree = "<group>";
@@ -124,6 +136,7 @@
 			files = (
 				182692C01D01E17200F97532 /* LaunchScreen.storyboard in Resources */,
 				182692BD1D01E17200F97532 /* Assets.xcassets in Resources */,
+				182692C81D01E22E00F97532 /* heros.plist in Resources */,
 				182692BB1D01E17200F97532 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				182692B81D01E17200F97532 /* ViewController.swift in Sources */,
+				182692CC1D01E35400F97532 /* BaseTableView.swift in Sources */,
 				182692B61D01E17200F97532 /* AppDelegate.swift in Sources */,
+				182692CD1D01E35400F97532 /* Heros.swift in Sources */,
+				182692CE1D01E35400F97532 /* HeroTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
