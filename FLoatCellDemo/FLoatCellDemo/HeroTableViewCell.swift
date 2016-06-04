@@ -26,7 +26,7 @@ class HeroTableViewCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
         matterView.numberOfLines = 0
-        backgroundColor = UIColor.init(red: arc, green: <#T##CGFloat#>, blue: <#T##CGFloat#>, alpha: <#T##CGFloat#>)
+        
     }
 
     override func setSelected(selected: Bool, animated: Bool) {
